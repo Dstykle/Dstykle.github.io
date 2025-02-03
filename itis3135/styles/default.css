@@ -1,0 +1,29 @@
+
+header{
+    background-color: #da8a28;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 10px;
+}
+body{
+    background-color: darkslategrey;
+    color: orange;
+}
+a{
+    color: aquamarine;
+    padding-right: 10%;
+}
+main > h2{
+    color: palegoldenrod;
+}
+main > h1{
+    text-align: center;
+}
+img{
+    width: 250px;
+    display: flex;
+    float: right;
+}
+figcaption{
+    /*want the caption to siut under the photo */
+}
