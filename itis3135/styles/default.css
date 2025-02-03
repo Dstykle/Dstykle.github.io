@@ -1,6 +1,6 @@
 
 header{
-    background-color: #da8a28;
+    background-color: #38b49193;
     color: #000000;
     text-align: center;
     padding-bottom: 10px;
@@ -9,9 +9,14 @@ body{
     background-color: darkslategrey;
     color: orange;
 }
-a{
-    color: aquamarine;
-    padding-right: 10%;
+nav a{
+    color: #cda83a;
+}
+header a{
+    color: #cda83a;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 20px;
 }
 main > h2{
     color: palegoldenrod;
@@ -24,6 +29,8 @@ img{
     display: flex;
     float: right;
 }
+/*
 figcaption{
-    /*want the caption to siut under the photo */
+    want the caption to siut under the photo 
 }
+*/
