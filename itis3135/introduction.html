@@ -11,16 +11,7 @@
 </head>
 <body>
     <header>
-        <h1> Pablo Gomez's Pleasant Genet || ITIS 3135 </h1>
-
-        <nav>
-            <a href="./">Home</a>
-            <a href="introduction.html">Introduction</a>
-            <a href="contract.html">Contract</a>
-        </nav>
-        <nav>
-            <a href="stuff/NEWPAGE&STUFF.HTM">Crappy Webpage</a>
-        </nav>
+        <div data-include="components/header.html"></div>
     </header>
     <hr>
     <main>
@@ -61,26 +52,9 @@
     </main>
     
     <footer>
-        <nav>
-        <ol>
-            <li><a href="https://webpages.charlotte.edu/pgomez7/">Charlotte.edu page</a></li>
-            <li><a href="https://github.com/Dstykle">Github repo</a></li>
-            <li><a href="https://github.com/Dstykle/Dstykle.github.io">Github.io page</a></li>
-            <li><a href="">ITIS3135.io page</a></li>
-            <li><a href="https://www.freecodecamp.org/PabloGomez">FreeCodeCamp page</a></li>
-            <li><a href="https://www.codecademy.com/profiles/PabloGomez12">Codecademy</a></li>
-            <li><a href="http://www.linkedin.com/in/PabloGomezTech">LinkedIn</a></li>
-        </ol>
-        </nav>
-        <p>designed by <a href="./gomez-designs.com/index.html">Gomez Designs</a>, Certified in <a href="https://www.freecodecamp.org/certification/PabloGomez/responsive-web-design" target="_blank">Responsive Web Design</a> ©2025</p>    </footer>
-        <hr>
-        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-            <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
-           </a>
-           <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
-            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
-             </a>
-           
+        <div data-include="components/footer.html"></div>
+
+           </footer>
            <script>
               document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
                    document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
