@@ -1,29 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Engaging on Video Games</title>
-        <!--css-->
         <style>
-            
+            html{
+                background-color: #4880b8;
+                color: white;
+            }
+            body {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-family: Arial, sans-serif;
+            }
+            h1{
+                text-align: center;
+            }
+            p{
+                font-size: 130%;
+                }
+            .topNav{
+                margin-left: 5%
+            }   
+            nav {
+                text-decoration: underline;
+                text-decoration-color: #ffa500;
+                background-color: #003366;
+                padding: 10px;
+            }
+            a{
+                color: #ffa500;
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                padding: 10px;
+            }
+
+            nav ul li {
+
+                margin-right: 20px;
+            }
+
+            nav a {
+                color: #ffa500;
+                text-decoration: none;
+                font-size: 16px;
+            }
+            h2{
+                text-align: center;
+                border: solid 3px white;
+                padding: 10px;
+            }
+            .flex-container{
+                display: flex;
+                flex-direction: row;
+            }
+
+            .section {
+                padding: 20px;
+                margin: 20px;
+                border: 1px solid #443e3e;
+                background-color: #003366;
+            }
+
         </style>
+    <title>Engaging on Volleyball</title>
     </head>
     <body>
     <header>
         <nav>
-            <a href="./">Home</a>
-            <a href="introduction.html">Introduction</a>
-            <a href="contract.html">Contract</a>
+            <ul>
+                <li class="topNav"><a href="#home" class="nav-link firstNav" data-target="home">Home</a></li>
+                <li class="topNav"><a href="#about" class="nav-link" data-target="about">About</a></li>
+                <li class="topNav"><a href="#schedule" class="nav-link" data-target="schedule">Schedule</a></li>
+                <li class="topNav"><a href="#where" class="nav-link" data-target="where">Where To Look</a></li>
+                <li class="topNav"><a href="#how" class="nav-link" data-target="how">How To Find</a></li>
+                <li class="topNav"><a href="#why" class="nav-link" data-target="why">Why You Should Look</a></li>
+                <li class="topNav"><a href="#ai" class="nav-link" data-target="ai">AI Prompts</a></li>
+            </ul>
         </nav>
-        <nav>
-            <!--7 pages only show 1 at a time-->
-        </nav>
+        <!--
         <nav>
             <a href="stuff/NEWPAGE&STUFF.HTM">Crappy Webpage</a>
-        </nav>
+        </nav>-->
         <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
 
         <h1>
-            Engaging on VolleyBall
+            A Dive into Volleyball
         </h1>
     </header>
     <!--Each section should have AT MINIMUM three things under the h2... i.e. two paragraphs and a figure-->
@@ -31,26 +95,43 @@
     prompt you used to generate the image. (Image + figcaption + italicized paragraph explaining prompt = 1 thing)-->
     <main>
         <!--what (this will be your home page- and you can call it home, and it's what should load first, explain what the hobby is about )-->
-        <section id="home">
+        <section id="home" class="section">
+           
             <h2>Home</h2>
+            <div class="flex-container">
             <!--Paragraph, Image/Figcaption, Paragraph-->
-            <p>VolleyBall is a sport where there are two teams of six people. There are many aspects to the game ranging from playing casually with some friends to playing competitively against a rival team. The main goal of the game is to keep the ball from touching the ground on your side of the net and scoring by hitting the ground of the opposing team.</p>
+            <p>
+            Volleyball is a sport where there are two teams of six people. There are many aspects to the game ranging from 
+            playing casually with some friends to playing competitively against a rival team. The main goal of the game is to
+            keep the ball from touching the ground on your side of the net and scoring by hitting the ground of the opposing team.
+            This sport is often played either indoors, outdoors in the sand, or even in the water as a friendly game.
+            </p>
+            
             <figure>
-
-            </figure>
-            <p>This is a widely loved sport.</p>
+                <img src="images/ildar-garifullin-UPjZWkyZ6aw-unsplash(1).jpg" alt="Volleyball" height="330">
+                <figcaption>This is volleyball shown being played on the sand.</figcaption>
+            </figure>  
+            <p>
+                Volleyball is a widely loved sport both in a competitive scene and casually. On this topic I will be focusing more 
+                on the competitive side of volleyball. Playing volleyball can take a lot out of you especially because it required 
+                you to be quick thinking, a team player, have well communication with your teammates, as well as being aware of 
+                your surroundings. Teams tend to analyze their opponents before matches in order to prepare for the best strategy 
+                to take them down. 
+            </p>
+        </div>
         </section>
+    
         <!--who (this name is a guide- you can change it to be something related, like "About Me" or "About" or "Who we Are")-->
-        <section>
-            <h2>About Me</h2>
+        <section id="about" class="section">
+            <h2>About</h2>
             <!--Paragraph, Image/Figcaption, Paragraph-->
             <figure>
-
+                <img src="images/IMG_1820cpy.jpg" alt="LinkedIn photo of Pablo Gomez">
             </figure>
         </section>
         <!--when (this name is a guide - you can change use it or change it to something like "Best Times" or "Schedule" or "Seasons" or something time related.
 -->
-        <section id="schedule">
+        <section id="schedule" class="section">
             <h2>Schedule</h2>
             <p>Here are the times of upcoming volleyball matches.</p>
             <!--Paragraph, Table with text above it, Table with text above it?-->
@@ -60,7 +141,7 @@
         </section>
         <!--where (this name is a guide and you can also change it to "best locations" or something like that)
 -->
-        <section id="where">
+        <section id="where" class="section">
             <h2>Where to Look</h2>
             <!--Image/Figcaption, Paragraph, Image/Figcaption, Paragraph-->
             <p>The best places</p>
@@ -69,7 +150,7 @@
             </figure>
         </section>
         <!--how-->
-        <section id="how">
+        <section id="how" class="section">
             <h2>How to Find</h2>
             <!--Unsure-->
             <figure>
@@ -77,7 +158,7 @@
             </figure>
         </section>
         <!--why-->
-        <section id="why">
+        <section id="why" class="section">
             <h2>Why Should You Look Into It? </h2>
             <!--Unsure-->
             <figure>
@@ -87,8 +168,10 @@
         <!--AI Prompts ( If you used AI to generate code or just text, make this section so that we can see all the prompts used to create this page, If you only used AI for 
         images and nothing else,  you don't need to make this section AND you need to put in the comment section of your submission 
         that "I only used AI for images so I don't need the AI-content section" to get full points for the "AI Prompts section" )-->
-        <section id="ai">
+        <section id="ai" class="section">
             <h2>AI Prompts Used</h2>
+            <p>how to create a nav bar that has each section listed with an id attribute, but when you click on it it only shows that specific section and hides the rest. JavaScript and CSS can be used.</p>
+            <p>Good color schemes for a website</p>
             <figure>
 
             </figure>
@@ -96,8 +179,9 @@
     <!--Be careful to not mess up the aspect ratio, and be sure to resize large images in an image editor so that users are not downloading the whole image before resizing it. -->
     </main>
     <footer>
+        
         <nav>
-            <ol>
+            <ol style="color: #ffa500;">
                 <li><a href="https://webpages.charlotte.edu/pgomez7/">Charlotte.edu page</a></li>
                 <li><a href="https://github.com/Dstykle">Github repo</a></li>
                 <li><a href="https://github.com/Dstykle/Dstykle.github.io">Github.io page</a></li>
@@ -117,5 +201,46 @@
                 <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
                  </a>
     </footer>
-    </body>
+    <script>
+        // Select all navigation links
+        const navLinks = document.querySelectorAll('.nav-link');
+          console.log(navLinks.values());
+       // Select all sections
+       const sections = document.querySelectorAll('.section');
+       
+       // Function to show the clicked section and hide the others
+       function showSection(event) {
+           event.preventDefault(); // Prevent the default anchor behavior
+           console.log(event);
+           // Get the target section ID
+           const targetSectionId = event.target.getAttribute('data-target');
+           console.log(targetSectionId);
+           // Hide all sections
+           sections.forEach((section) => section.style.display = 'none');
+       
+           // Show the selected section
+           const targetSection = document.getElementById(targetSectionId);
+           if (targetSection) {
+               targetSection.style.display = 'block';
+           }
+       }
+       
+       // Add event listeners to all navigation links
+       navLinks.forEach((link) => {
+           link.addEventListener('click', showSection);
+       });
+       
+       // Display the "Home" section by default on page load
+       window.addEventListener('load', () => {
+           sections.forEach((section) => section.style.display = 'none');
+           
+           const homeSection = document.getElementById('home');
+           if (homeSection) {
+               homeSection.style.display = 'block';
+           }
+       });
+       
+               </script>    
+</body>
+    
 </html>
