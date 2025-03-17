@@ -13,6 +13,7 @@
             }
             h1{
                 text-align: center;
+                margin-top: 2%;
             }
             p{
                 font-size: 130%;
@@ -58,6 +59,12 @@
                 flex-direction: column;
                 margin-bottom: 60px;
             }
+            .flex-container-row{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                width: 80%;
+            }
             figure{
                 float: right;
             }
@@ -87,15 +94,18 @@ td, th {
     </head>
     <body>
     <header>
+        <h1>
+            A Dive into Volleyball
+        </h1>
         <nav>
             <ul>
-                <li class="topNav"><a href="#home" class="nav-link firstNav" data-target="home">Home</a></li>
-                <li class="topNav"><a href="#about" class="nav-link" data-target="about">About</a></li>
-                <li class="topNav"><a href="#schedule" class="nav-link" data-target="schedule">Schedule</a></li>
-                <li class="topNav"><a href="#where" class="nav-link" data-target="where">Where To Look</a></li>
-                <li class="topNav"><a href="#how" class="nav-link" data-target="how">How To Start</a></li>
-                <li class="topNav"><a href="#why" class="nav-link" data-target="why">Why Volleyball is Worth It</a></li>
-                <li class="topNav"><a href="#ai" class="nav-link" data-target="ai">AI Prompts</a></li>
+                <li class="topNav"><a href="#home" class="nav-link firstNav" data-target="home">| Home |</a></li>
+                <li class="topNav"><a href="#about" class="nav-link" data-target="about">| About |</a></li>
+                <li class="topNav"><a href="#schedule" class="nav-link" data-target="schedule">| Schedule |</a></li>
+                <li class="topNav"><a href="#where" class="nav-link" data-target="where">| Where To Look |</a></li>
+                <li class="topNav"><a href="#how" class="nav-link" data-target="how">| How To Start |</a></li>
+                <li class="topNav"><a href="#why" class="nav-link" data-target="why">| Why Volleyball is Worth It |</a></li>
+                <li class="topNav"><a href="#ai" class="nav-link" data-target="ai">| AI Prompts |</a></li>
             </ul>
         </nav>
         <!--
@@ -104,9 +114,7 @@ td, th {
         </nav>-->
         <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
 
-        <h1>
-            A Dive into Volleyball
-        </h1>
+        
     </header>
     <!--Each section should have AT MINIMUM three things under the h2... i.e. two paragraphs and a figure-->
     <!--All images should be same style // cartoon-ish or photorealistic You must also have an italicized paragraph below the figure and need to provide the 
@@ -145,15 +153,33 @@ td, th {
         <section id="about" class="section">
             <h2>About</h2>
             <!--Paragraph, Image/Figcaption, Paragraph-->
+            <p>
+                Volleyball was originally made in 1895 by William G. Morgan. This was made as an alternative from basketball
+                as a less physically demanding sport. The name of the sport is derived from the word "volley" because of how the ball
+                is played and hit around the net. In the early 1900s is when they adopted rules for the sport. 
+                Countries started to notice it more throughout the years and about thirty years
+                later the sport was recognized by the International Olympic Committee. Volleyball is now played in over 200 countries.
+                By 1964 it was the most popular sport in the world. It is now played in over 2.5 million games every year.
+            </p>
+            <br>
+            <div class="flex-container-row">
             <figure>
-                <img src="images/IMG_1820cpy.jpg" alt="LinkedIn photo of Pablo Gomez">
+                <img src="images/erik-mclean--PkEytgjLm0-unsplash.jpg" alt="Volleyball game picture" height=400 style="align-items: flex-start;">
+                <figcaption>A volleyball player in the court with an audience</figcaption>
             </figure>
+            <figure>
+            <img src="images/William_G._Morgan.jpg" alt="Volleyball game picture" height=400 style="align-items: flex-start;">
+            <figcaption>Historical photo of William G. Morgan</figcaption>
+            </figure>
+            </div>
+           
         </section>
         <!--when (this name is a guide - you can change use it or change it to something like "Best Times" or "Schedule" or "Seasons" or something time related.
 -->
-        <section id="schedule" class="section" style="margin-left:0px">
+        <section id="schedule" class="section" style="margin-left:-25px">
             <h2>Schedule</h2>
-            
+            <p>Scheduling can differ based on many different factors. These can include what state you live in(or country), what type of school you go to, and whether if they have a volleyball team. No matter the factors, the volleyball season will just about always stay the same. In this section I will talk about the seasons and what they have different between the college settings and high school settings.</p>
+            <img src="images/16202.jpg" alt="schedule picture" width="400">
             <p>High School Volleyball Season Scheduling</p>
             <!--Paragraph, Table with text above it, Table with text above it?-->
             <table>
@@ -247,49 +273,80 @@ td, th {
             <h2>Where to Look</h2>
             <div class="flex-container-column">
             <!--Image/Figcaption, Paragraph, Image/Figcaption, Paragraph-->
-            <p>three of the best locations....</p>
+            <p>Three of the best locations to go out and play or even watch are...</p>
             <table>
                 <tr>
-                    <td>Los Angeles, California <br> <br> <img src="images/los-angeles-498285_640.jpg" width="450" alt="Los Angeles, California"> <br> <br>
+                    <td>Los Angeles, California <br> <br><figure><img src="images/los-angeles-498285_640.jpg" width="450" alt="Los Angeles, California"> <figcaption>City of Los Angeles</figcaption></figure><br> <br>
                         Here in Los Angeles is known for having a huge community that are into volleyball. They host an annual event called the Junior 
                         Olympics Volleyball tournament. They have great world class facilities that are well-maintained for training. This makes it a perfect area to stay
                         for professional players looking to play in the top division.
                     </td>
                 </tr>
                 <tr>
-                    <td>Chicago, Illinois <br> <br><img src="images/chicago-5347435_640.jpg" width="450" alt="Chicago, Illinois"><br> <br>
+                    <td>Chicago, Illinois <br> <br><figure><img src="images/chicago-5347435_640.jpg" width="450" alt="Chicago, Illinois"><figcaption>City of Chicago</figcaption></figure><br> <br>
                         The Chicago area have a strong volleyball culture within its community and is home to many professional players. Their gyms equip some of the best
                         technology within its facilities. They also host many national level tournaments through the year.
                 </td>
                 </tr>
                 <tr>
-                    <td>Minneapolis, Minnesota <br> <br><img src="images/minneapolis-1632077_640.jpg" width="450" alt="Minneapolis, Minnesota"> <br> <br>
+                    <td>Minneapolis, Minnesota <br> <br><figure><img src="images/minneapolis-1632077_640.jpg" width="450" alt="Minneapolis, Minnesota"><figcaption>City of Minneapolis</figcaption></figure><br> <br>
                     In the Minneapolis area, they take their volleyball game very seriously. They have big programs for the most top-tier players.
                     When it comes to their facilities they are some of the best in the country. This city also hosts championships which attracts the players
                     from all over the country to play.
                 </tr>
             </table>
-            <figure>
-
-            </figure>
             </div>
         </section>
         <!--how-->
         <section id="how" class="section">
             <h2>How to Start Volleyball</h2>
             <!--Unsure-->
-            
+            <p>If you are new to volleyball, here are some tips to get you started.</p>
             <figure>
-                <!--Image and caption-->
+                <img src="images/359168832_11454079.jpg" alt="volleyball event posters" width="400">
+                <figcaption>Event posters that are typically seen for upcoming matches.</figcaption>
             </figure>
+            <ul style="font-size: x-large;">
+                <li>Understanding the basic rules of volleyball is a big way of getting started. This puts you very ahead as you know what is expected when being out on the court.</li>
+                <li>Find somewhere to play and get to know the community to start building more relationships. Poeple can be a big resource when it comes to learning the game or if they can teach you how to play properly.</li>
+                <li>Play in games with people you either know or don't to get a good feel of the nature of the game. Getting used to being confident in yourself is a big step forward because it boosts learning when focusing on bettering yourself when starting.</li>
+                <li>Try watching how games are played by professionals or even people who play casually. Some people prefer to watch and learn first before going out and doing it themselves first.</li>
+                <li>There are lots of leagues and clubs that are out there for you to join and play in. This is the best way to make yourself a little more known if you ever decide to go into the competitive scene.</li>
+            </ul>
+           
         </section>
         <!--why-->
         <section id="why" class="section">
             <h2>Why Volleyball is Worth It</h2>
             <!--Unsure-->
             <figure>
-
+                <img src="images/132678.jpg" alt="Health chart picture" width="400">
+                <figcaption>Factors of building positive body fitness and health.</figcaption>
             </figure>
+            <p>
+                There are many reason why volleyball is played around the world. Here we will go over all of the beneficial reasons to play volleyball.
+            </p>
+            <br>
+            <ul>
+                <li style="font-size: x-large; font-weight: bold;">It is a good way to stay physically fit</li>
+            </ul>
+                <p style="text-indent: 0;">Because of the practices and training that go into volleyball, makes it a good way to stay on top of both your health and body.</p>
+            <ul>
+                <li style="font-size: x-large; font-weight: bold;">It is a good way to make friends</li>
+            </ul>
+            <p style="text-indent: 0;">Due to being on the court alongside multiple people it makes it a good way to be able to talk to others and make lasting friendships out of them.</p>
+            <ul>
+                <li style="font-size: x-large; font-weight: bold;">Development in your mental health</li>
+            </ul>
+            <p style="text-indent: 0;">Making decisions and understanding sacrifices on different levels make it the best way to develop your mental health.</p>
+            <ul>    
+                <li style="font-size: x-large; font-weight: bold;">Allows for you to be able to depend on others</li>
+            </ul>
+            <p style="text-indent: 0;">Teamwork is heavily involved in this so learning to depend on someone else allows for you to be able to make decisions knowing you have someone that can back you up on tough times.</p>
+            <ul>
+                <li style="font-size: x-large; font-weight: bold;">Overall is a fun sport to play</li>
+            </ul>
+            <p style="text-indent: 0;">Volleyball is played on a national level as well as something you can set up in your backyard or in a park somewhere. It is a heavily loved sport and is fun and relaxing when being able to play with your friends.</p>
         </section>
         <!--AI Prompts ( If you used AI to generate code or just text, make this section so that we can see all the prompts used to create this page, If you only used AI for 
         images and nothing else,  you don't need to make this section AND you need to put in the comment section of your submission 
@@ -365,7 +422,7 @@ td, th {
        window.addEventListener('load', () => {
            sections.forEach((section) => section.style.display = 'none');
            
-           const homeSection = document.getElementById('where');
+           const homeSection = document.getElementById('why');
            if (homeSection) {
                homeSection.style.display = 'block';
            }
