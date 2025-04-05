@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pleasant Genet || ITIS 3135 || Tables</title>
     <link rel="stylesheet" href="styles/default.css">
+    <style> 
+        tr:nth-child(odd) {
+          background-color: rgb(53, 50, 50);
+        }
+        tr:nth-child(even){
+            background-color: rgb(109, 116, 116);
+        }
+        </style>
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -18,19 +26,17 @@
         <h2>ITIS || 3135 || Tables</h2>
     </main>
     
-    <!--People worked for company-->
-    <p>
-        Nashaley Tobal nashtobal@gmail.com 2
-        Ashley Pedrino ashleyped@candlesells.com
-
-
-
-    </p>
     <!--Table-->
     <h3>My Tabular Data</h3>
     <ol>
         <!--Add my people-->
-        <li></li>
+        <li>Nashaley Tobal nashtobal@gmail.com</li>
+        <li>Ashley Pedrino ashleyped@candlesells.com</li>
+        <li>Juan Lloyd juanlloyd10@gmail.com</li>
+        <li>Roisin Graves roisingraves@yahoo.com</li>
+        <li>Heidi Mcneil heidim22@gmail.com</li>
+        <li>Alasdair Navarro alasnav@candlesells.com</li>
+        <li>Rishi Mays rishi199@gmail.com</li>
     </ol>
     <h3>Employee Data in Simple Table</h3>
 
@@ -42,97 +48,111 @@
             <th>Years of Service</th>
         </tr>
         <tr>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td>Nashaley Tobal</td>
+            <td>nashtobal@gmail.com </td>
+            <td>3</td>
         </tr>
         <tr>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td>Ashley Pedrino</td>
+            <td>ashleyped@candlesells.com</td>
+            <td>2</td>
         </tr>
         <tr>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td>Juan Lloyd</td>
+            <td>juanlloyd10@gmail.com</td>
+            <td>8</td>
         </tr>
         <tr>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td>Roisin Graves</td>
+            <td>roisingraves@yahoo.com</td>
+            <td>2</td>
         </tr>
         <tr>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td>Heidi Mcneil</td>
+            <td>heidim22@gmail.com</td>
+            <td>5</td>
         </tr>
         <tr>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td>Alasdair Navarro</td>
+            <td>alasnav@candlesells.com</td>
+            <td>2</td>
         </tr>
         <tr>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td>Rishi Mays</td>
+            <td>rishi199@gmail.com</td>
+            <td>4</td>
         </tr>
     </table>
 
     <h3>Employee Data in Complex Table</h3>
     <!--Complex table-->
-    <table>
+    <figure>
+        <figcaption>Employee Information</figcaption>
+
+        <table>
         <tr>
-            <th>Category</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Years of Service</th>
+            <th id="cat">Category</th>
+            <th id="name">Name</th>
+            <th id="email">Email</th>
+            <th id="yos">Years of Service</th>
+            <th id="ms">Monthly Salary</th>
         </tr>
         <tr>
-            <td>Category</td>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td rowspan="2">Managers</td>
+            <td headers="name cat">Nashaley Tobal</td>
+            <td headers="email cat">nashtobal@gmail.com </td>
+            <td headers="yos cat">3</td>
+            <td headers="ms cat">4583</td>
         </tr>
         <tr>
-            <td>Category</td>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td headers="name cat">Ashley Pedrino</td>
+            <td headers="email cat">ashleyped@candlesells.com</td>
+            <td headers="yos cat">2</td>
+            <td headers="ms cat">4583</td>
         </tr>
         <tr>
-            <td>Category</td>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td rowspan="3" style="background-color:rgb(53, 50, 50);">Leaders</td>
+            <td headers="name cat">Juan Lloyd</td>
+            <td headers="email cat">juanlloyd10@gmail.com</td>
+            <td headers="yos cat">8</td>
+            <td headers="ms cat">3333</td>
+
         </tr>
         <tr>
-            <td>Category</td>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td headers="name cat">Roisin Graves</td>
+            <td headers="email cat">roisingraves@yahoo.com</td>
+            <td headers="yos cat">2</td>
+            <td headers="ms cat">3333</td>
         </tr>
         <tr>
-            <td>Category</td>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td headers="name cat">Heidi Mcneil</td>
+            <td headers="email cat">heidim22@gmail.com</td>
+            <td headers="yos cat">5</td>
+            <td headers="ms cat">3333</td>
         </tr>
         <tr>
-            <td>Category</td>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td style="background-color:rgb(109, 116, 116);" rowspan="2">Employees</td>
+            <td headers="name cat">Alasdair Navarro</td>
+            <td headers="email cat">alasnav@candlesells.com</td>
+            <td headers="yos cat">2</td>
+            <td headers="ms cat">2583</td>
         </tr>
         <tr>
-            <td>Category</td>
-            <td>name</td>
-            <td>email</td>
-            <td>yearsofservice</td>
+            <td headers="name cat">Rishi Mays</td>
+            <td headers="email cat">rishi199@gmail.com</td>
+            <td headers="yos cat">4</td>
+            <td headers="ms cat">2583</td>
+        </tr>
+        <tr>
+            <th colspan="3">Total Years of Service:</th>
+            <td>26</td>
+            <td>292,000</td>
         </tr>
     </table>
+</figure>
     <!--Continue on part 4 HTML tables assignment.-->
 
-
+<hr>
     <div>
     <footer style="margin-left: 40%">
         <div data-include="components/footer.html"></div>
