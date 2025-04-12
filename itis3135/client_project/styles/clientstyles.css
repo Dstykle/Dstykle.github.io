@@ -14,11 +14,9 @@ li a{
     padding: 8px;
     color:rgb(101, 129, 0);
     text-decoration: none;
-    
-}
-a{
     border: solid 1px;
 }
+
 footer{
     padding: 1rem;
     text-align: center;
