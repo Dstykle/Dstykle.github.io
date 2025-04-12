@@ -1,0 +1,26 @@
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(209, 235, 209, 0.795);
+}
+li a{
+    float: left;
+    margin: 1px 1px;
+    display: block;
+    padding: 8px;
+    color:rgb(101, 129, 0);
+    text-decoration: none;
+    
+}
+a{
+    border: solid 1px;
+}
+footer{
+    padding: 1rem;
+    text-align: center;
+    background-color:rgba(209, 235, 209, 0.795)
+}
