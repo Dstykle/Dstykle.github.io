@@ -16,9 +16,39 @@ li a{
     text-decoration: none;
     border: solid 1px;
 }
-
+body{
+    margin: 0;
+}
 footer{
     padding: 1rem;
     text-align: center;
     background-color:rgba(209, 235, 209, 0.795)
 }
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(209, 235, 209, 0.795);
+    padding: 0.5rem;
+    margin: 2rem 2rem;
+    
+}
+input{
+    border: 2px solid;
+    padding: 1rem;   
+}
+label{
+    font-size: large;
+}
+figure.container {
+    background-color: rgba(209, 235, 209, 0.795);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  figure.container img {
+    padding: 10px;
+  }
+  h2{
+    text-align: center;
+  }

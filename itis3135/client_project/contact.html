@@ -10,7 +10,7 @@
     <body>
         <header>
             <h1>
-                Contact Me Here!
+                Contact Us Here!
             </h1>
             <nav>
                 <ul>
@@ -18,13 +18,22 @@
                     <li><a href="flooring.html">Ceramic Tiling or Wooden Flooring</a></li>
                     <li><a href="ceramic.html">Ceramic Tiling Showcase</a></li>
                     <li><a href="wooden.html">Wooden Flooring Showcase</a></li>
-                    <li><a href="contact.html">Contact Me</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="project_overview.html">Project Overview</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <!--Contact Form-->
+            <form action="index.html">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name..."><br><br>
+                <label for="number">Phone number:</label>
+                <input type="tel" id="number" name="number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required placeholder="Phone Number..."><br><br>
+                <label for="service">What service are you looking to have done?</label>
+                <input type="text" id="service" name="service" maxlength="10" required placeholder="Service request..."><br><br>
+                <input type="submit" value="Submit">
+              </form>
         </main>
         <footer>
             <p>&copy; 2025 Felipe's Flooring | <a href="contact.html">Contact Me</a></p>
