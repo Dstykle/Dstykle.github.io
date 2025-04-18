@@ -53,3 +53,18 @@ label{
   h2{
     text-align: center;
   }
+
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+.services{
+    margin-right: 10px;
+}
