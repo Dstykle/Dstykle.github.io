@@ -18,6 +18,9 @@ header a{
     margin-left: 50px;
     font-size: 20px;
 }
+.footlink{
+    color: #3acd53;
+}
 main > h2{
     color: palegoldenrod;
 }
@@ -28,6 +31,15 @@ img{
     width: 250px;
     display: flex;
     float: right;
+}
+hr{
+    display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  margin: 1em 0;
+  padding: 0;
+    color: rgb(177, 226, 102);
 }
 /*
 figcaption{
