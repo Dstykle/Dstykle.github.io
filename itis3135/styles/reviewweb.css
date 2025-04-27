@@ -1,4 +1,3 @@
-
 header, footer{
     background-color: #38b49193;
     color: #000000;
@@ -10,7 +9,7 @@ body{
     background-color: darkslategrey;
     color: orange;
 }
-nav a{
+nav a,a{
     color: #cda83a;
 }
 header a, .footerLink a{
@@ -18,6 +17,9 @@ header a, .footerLink a{
     text-align: center;
     margin-left: 50px;
     font-size: 20px;
+}
+figcaption{
+    margin-left: 20%;
 }
 .footlink{
     color: #3acd53;
@@ -28,10 +30,15 @@ main > h2{
 main > h1{
     text-align: center;
 }
-img{
-    width: 250px;
-    display: flex;
-    float: right;
+
+hr{
+    display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  margin: 1em 0;
+  padding: 0;
+    color: rgb(177, 226, 102);
 }
 /*
 figcaption{
