@@ -10,19 +10,9 @@
     </head>
     <body>
         
-    <header>
-        <h1>Felipe's Tiling Business Overview</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="ceramic.html">Why Tiling?</a></li>
-                <li><a href="ceramicphoto.html">Ceramic Photo Showcase</a></li>
-                <li><a href="ceramicvideo.html">Ceramic Video Showcase</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="project_overview.html">Project Overview</a></li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+            <div data-include="components/header.html"></div>
+        </header>
     <main>
         <h2>
             Website Overview
@@ -99,12 +89,13 @@
     </main>
         
     <footer>
-        <p>&copy; 2025 Felipe's Flooring | <a href="contact.html">Contact Me</a></p>
+        <div data-include="components/footer.html"></div>
     </footer>
     <script>
         document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
              document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-     </script>    
+     </script>
+     <script src="scripts/HTMLInclude.min.js"></script>    
 </body>
     
 </html>

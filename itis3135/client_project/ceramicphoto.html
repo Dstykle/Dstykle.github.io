@@ -10,57 +10,45 @@
     </head>
     <body>
         <header>
-            <h1>
-                Felipe's Tiling Business
-            </h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="ceramic.html">Why Tiling?</a></li>
-                    <li><a href="ceramicphoto.html">Ceramic Photo Showcase</a></li>
-                    <li><a href="ceramicvideo.html">Ceramic Video Showcase</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="project_overview.html">Project Overview</a></li>
-                </ul>
-            </nav>
+            <div data-include="components/header.html"></div>
         </header>
         <main>
             <h2>Tiling Photo Showcase</h2>
             <!--Image gallery-->
           
-<div class="row">
+<div class="row" >
     <div class="column">
-      <img src="images/IMG_5125.PNG" width=200 onclick="openModal();currentSlide(1)" class="zoomstart hover-shadow" alt="ceramic tile job">
+      <img src="images/IMG_5125.PNG" width=200  style="max-height: 16rem" onclick="openModal();currentSlide(1)" class="zoomstart hover-shadow" alt="ceramic tile job">
     </div>
     <div class="column">
-      <img src="images/IMG_5127.jpg" width=200 onclick="openModal();currentSlide(2)" class="zoomstart hover-shadow" alt="ceramic tile job">
+      <img src="images/IMG_5127.jpg" width=200 style="max-height: 16rem" onclick="openModal();currentSlide(2)" class="zoomstart hover-shadow" alt="ceramic tile job">
     </div>
     <div class="column">
-      <img src="images/IMG_5128.jpg" width=200 onclick="openModal();currentSlide(3)" class="zoomstart hover-shadow" alt="ceramic tile job">
+      <img src="images/IMG_5128.jpg" width=200 style="max-height: 16rem" onclick="openModal();currentSlide(3)" class="zoomstart hover-shadow" alt="ceramic tile job">
     </div>
     <div class="column">
-      <img src="images/IMG_5129.jpg" width=200 onclick="openModal();currentSlide(4)" class="zoomstart hover-shadow" alt="ceramic tile job">
+      <img src="images/IMG_5129.jpg" width=200 style="max-height: 16rem" onclick="openModal();currentSlide(4)" class="zoomstart hover-shadow" alt="ceramic tile job">
     </div>
     <div class="column">
-      <img src="images/IMG_5130.PNG" width=200 onclick="openModal();currentSlide(5)" class="zoomstart hover-shadow" alt="ceramic tile job">
+      <img src="images/IMG_5130.PNG" width=200 style="max-height: 16rem" onclick="openModal();currentSlide(5)" class="zoomstart hover-shadow" alt="ceramic tile job">
     </div>
     <div class="column">
-        <img src="images/IMG_5131.PNG" width=200 onclick="openModal();currentSlide(6)" class="zoomstart hover-shadow" alt="ceramic tile job">
+        <img src="images/IMG_5131.PNG" width=200 style="max-height: 16rem" onclick="openModal();currentSlide(6)" class="zoomstart hover-shadow" alt="ceramic tile job">
     </div>
     <div class="column">
-        <img src="images/IMG_5132.PNG" width=200 onclick="openModal();currentSlide(7)" class="zoomstart hover-shadow" alt="ceramic tile job">
+        <img src="images/IMG_5132.PNG" width=200 style="max-height: 16rem" onclick="openModal();currentSlide(7)" class="zoomstart hover-shadow" alt="ceramic tile job">
     </div>
     <div class="column">
-        <img src="images/IMG_5133.jpg" width=200 onclick="openModal();currentSlide(8)" class="zoomstart hover-shadow" alt="ceramic tile job">
+        <img src="images/IMG_5133.jpg" width=200 style="max-height: 16rem" onclick="openModal();currentSlide(8)" class="zoomstart hover-shadow" alt="ceramic tile job">
     </div>
     <div class="column">
-        <img src="images/IMG_5134.PNG" width=200 onclick="openModal();currentSlide(9)" class="zoomstart hover-shadow" alt="ceramic tile job">
+        <img src="images/IMG_5134.PNG" width=200 style="max-height: 16rem" onclick="openModal();currentSlide(9)" class="zoomstart hover-shadow" alt="ceramic tile job">
     </div>
     <div class="column">
-        <img src="images/IMG_5135.PNG" width=200 onclick="openModal();currentSlide(10)" class="zoomstart hover-shadow" alt="ceramic tile job">
+        <img src="images/IMG_5135.PNG" width=200 style="max-height: 16rem" onclick="openModal();currentSlide(10)" class="zoomstart hover-shadow" alt="ceramic tile job">
     </div>
     <div class="column">
-        <img src="images/IMG_5136.PNG" width=200 onclick="openModal();currentSlide(11)" class="zoomstart hover-shadow" alt="ceramic tile job">
+        <img src="images/IMG_5136.PNG" width=200 style="max-height: 16rem" onclick="openModal();currentSlide(11)" class="zoomstart hover-shadow" alt="ceramic tile job">
     </div>
   </div>
 
@@ -174,30 +162,16 @@
       </div>
     </div>
   </div>
-  <!--
-            <figure class="container">
-                <img src="images/IMG_5125.PNG" width="420" alt="ceramic tile job">
-                <img src="images/IMG_5127.jpg" width="310" alt="ceramic tile job">
-                <img src="images/IMG_5128.jpg" width="310" alt="ceramic tile job">
-                <img src="images/IMG_5129.jpg" width="400" alt="ceramic tile job">
-                <img src="images/IMG_5130.PNG" width="310" alt="ceramic tile job">
-                <img src="images/IMG_5131.PNG" width="330" alt="ceramic tile job">
-                <img src="images/IMG_5132.PNG" width="420" alt="ceramic tile job">
-                <img src="images/IMG_5133.jpg" width="390" alt="ceramic tile job">
-                <img src="images/IMG_5134.PNG" width="420" alt="ceramic tile job">
-                <img src="images/IMG_5135.PNG" width="420" alt="ceramic tile job">
-                <img src="images/IMG_5136.PNG" width="420" alt="ceramic tile job">
-                
-            </figure>
-            -->
+  <br>
         </main>
         <footer>
-            <p>&copy; 2025 Felipe's Flooring | <a href="contact.html">Contact Me</a></p>
+            <div data-include="components/footer.html"></div>
         </footer>
         <script>
             document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
                  document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
          </script>
          <script src="scripts/clientscripts.js"></script>
+         <script src="scripts/HTMLInclude.min.js"></script>
          </body>
 </html>

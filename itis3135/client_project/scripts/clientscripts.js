@@ -1,5 +1,3 @@
-
-
 // Contact form scripts
 const form = document.getElementById('myForm');
 form.addEventListener('submit', function(event) {
