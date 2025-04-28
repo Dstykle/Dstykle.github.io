@@ -1,4 +1,6 @@
-
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
 nav ul{
     list-style-type: none;
