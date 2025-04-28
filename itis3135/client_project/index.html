@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/clientstyles.css">
         <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        <script src="https://api.mapbox.com/mapbox-gl-js/v3.11.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.11.0/mapbox-gl.css" rel="stylesheet">
+              
         <title>Home Page</title>
     </head>
     <body>
@@ -54,15 +57,13 @@
                 
             </div>
                 <h2>Where We Are Located</h2>
-                <p>Currently we operate in the Charlotte, NC area. Surrounding areas such as Concord, Matthers, Huntersville, etc. are places we can also work with.</p> 
-
+                <p>Currently we operate in the Charlotte, NC area. Surrounding areas such as Concord, Matthews, Huntersville, etc. are places we can also work with.</p> 
+                <div class="relativecontainer"><div id="map" ></div></div>
             </main>
         <footer>
             <p>&copy; 2025 Felipe's Flooring | <a href="contact.html">Contact Me</a></p>
         </footer>
-        <script>
-            document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
-                 document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-         </script>
+        <script src="scripts/clientscripts.js"></script>  
+        <script src="scripts/mapscripts.js"></script>
          </body>
 </html>

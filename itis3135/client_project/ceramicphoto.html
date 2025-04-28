@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/clientstyles.css">
         <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        
         <title>Photo Showcase Page</title>
     </head>
     <body>
@@ -26,6 +27,154 @@
         <main>
             <h2>Tiling Photo Showcase</h2>
             <!--Image gallery-->
+          
+<div class="row">
+    <div class="column">
+      <img src="images/IMG_5125.PNG" width=200 onclick="openModal();currentSlide(1)" class="zoomstart hover-shadow" alt="ceramic tile job">
+    </div>
+    <div class="column">
+      <img src="images/IMG_5127.jpg" width=200 onclick="openModal();currentSlide(2)" class="zoomstart hover-shadow" alt="ceramic tile job">
+    </div>
+    <div class="column">
+      <img src="images/IMG_5128.jpg" width=200 onclick="openModal();currentSlide(3)" class="zoomstart hover-shadow" alt="ceramic tile job">
+    </div>
+    <div class="column">
+      <img src="images/IMG_5129.jpg" width=200 onclick="openModal();currentSlide(4)" class="zoomstart hover-shadow" alt="ceramic tile job">
+    </div>
+    <div class="column">
+      <img src="images/IMG_5130.PNG" width=200 onclick="openModal();currentSlide(5)" class="zoomstart hover-shadow" alt="ceramic tile job">
+    </div>
+    <div class="column">
+        <img src="images/IMG_5131.PNG" width=200 onclick="openModal();currentSlide(6)" class="zoomstart hover-shadow" alt="ceramic tile job">
+    </div>
+    <div class="column">
+        <img src="images/IMG_5132.PNG" width=200 onclick="openModal();currentSlide(7)" class="zoomstart hover-shadow" alt="ceramic tile job">
+    </div>
+    <div class="column">
+        <img src="images/IMG_5133.jpg" width=200 onclick="openModal();currentSlide(8)" class="zoomstart hover-shadow" alt="ceramic tile job">
+    </div>
+    <div class="column">
+        <img src="images/IMG_5134.PNG" width=200 onclick="openModal();currentSlide(9)" class="zoomstart hover-shadow" alt="ceramic tile job">
+    </div>
+    <div class="column">
+        <img src="images/IMG_5135.PNG" width=200 onclick="openModal();currentSlide(10)" class="zoomstart hover-shadow" alt="ceramic tile job">
+    </div>
+    <div class="column">
+        <img src="images/IMG_5136.PNG" width=200 onclick="openModal();currentSlide(11)" class="zoomstart hover-shadow" alt="ceramic tile job">
+    </div>
+  </div>
+
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 11</div>
+        <img src="images/IMG_5125.PNG" style="width:498px;max-height:43rem" alt="ceramic tile job">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 11</div>
+        <img src="images/IMG_5127.jpg" style="width:498px;max-height:43rem" alt="ceramic tile job">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 11</div>
+        <img src="images/IMG_5128.jpg" style="width:498px;max-height:43rem" alt="ceramic tile job">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 11</div>
+        <img src="images/IMG_5129.jpg" style="width:498px;max-height:43rem" alt="ceramic tile job">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">5 / 11</div>
+        <img src="images/IMG_5130.PNG" style="width:498px;max-height:43rem" alt="ceramic tile job">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 11</div>
+        <img src="images/IMG_5131.PNG" style="width:498px;max-height:43rem" alt="ceramic tile job">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7 / 11</div>
+        <img src="images/IMG_5132.PNG" style="width:498px;max-height:43rem" alt="ceramic tile job">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 11</div>
+        <img src="images/IMG_5133.jpg" style="width:498px;max-height:43rem" alt="ceramic tile job">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">9 / 11</div>
+        <img src="images/IMG_5134.PNG" style="width:498px;max-height:43rem" alt="ceramic tile job">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">10 / 11</div>
+        <img src="images/IMG_5135.PNG" style="width:498px;max-height:43rem" alt="ceramic tile job">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">11 / 11</div>
+        <img src="images/IMG_5136.PNG" style="width:498px;max-height:43rem" alt="ceramic tile job">
+      </div>
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src="images/IMG_5125.PNG" width="100" onclick="currentSlide(1)" alt="Ceramic Tile Job Photos">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="images/IMG_5127.jpg" width="100" onclick="currentSlide(2)" alt="Ceramic Tile Job Photos">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="images/IMG_5128.jpg" width="100" onclick="currentSlide(3)" alt="Ceramic Tile Job Photos">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="images/IMG_5129.jpg" width="100" onclick="currentSlide(4)" alt="Ceramic Tile Job Photos">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="images/IMG_5130.PNG" width="100" onclick="currentSlide(5)" alt="Ceramic Tile Job Photos">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="images/IMG_5131.PNG" width="100" onclick="currentSlide(6)" alt="Ceramic Tile Job Photos">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="images/IMG_5132.PNG" width="100" onclick="currentSlide(7)" alt="Ceramic Tile Job Photos">
+      </div>
+      <div class="column">
+        <img class="demo" src="images/IMG_5133.jpg" width="100" onclick="currentSlide(8)" alt="Ceramic Tile Job Photos">
+      </div>
+      <div class="column">
+        <img class="demo" src="images/IMG_5134.PNG" width="100" onclick="currentSlide(9)" alt="Ceramic Tile Job Photos">
+      </div>
+      <div class="column">
+        <img class="demo" src="images/IMG_5135.PNG" width="100" onclick="currentSlide(10)" alt="Ceramic Tile Job Photos">
+      </div>
+      <div class="column">
+        <img class="demo" src="images/IMG_5136.PNG" width="100" onclick="currentSlide(11)" alt="Ceramic Tile Job Photos">
+      </div>
+    </div>
+  </div>
+  <!--
             <figure class="container">
                 <img src="images/IMG_5125.PNG" width="420" alt="ceramic tile job">
                 <img src="images/IMG_5127.jpg" width="310" alt="ceramic tile job">
@@ -40,7 +189,7 @@
                 <img src="images/IMG_5136.PNG" width="420" alt="ceramic tile job">
                 
             </figure>
-            
+            -->
         </main>
         <footer>
             <p>&copy; 2025 Felipe's Flooring | <a href="contact.html">Contact Me</a></p>
@@ -49,5 +198,6 @@
             document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
                  document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
          </script>
+         <script src="scripts/clientscripts.js"></script>
          </body>
 </html>

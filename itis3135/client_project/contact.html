@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/clientstyles.css">
         <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        
         <title>Contact Page</title>
     </head>
     <body>
@@ -25,14 +26,14 @@
         </header>
         <main>
             <!--Contact Form-->
-            <form action="index.html">
+            <form id="myForm">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required placeholder="Enter your name..."><br><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name..."><br><br>
                 <label for="number">Phone number:</label>
-                <input type="tel" id="number" name="number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required placeholder="Phone Number..."><br><br>
+                <input type="tel" id="number" name="number" placeholder="Phone Number..."><br><br>
                 <label for="service">What service are you looking to have done?</label>
-                <input type="text" id="service" name="service" maxlength="10" required placeholder="Service request..."><br><br>
-                <input type="submit" value="Submit">
+                <input type="text" id="service" name="service" placeholder="Service request..."><br><br>
+                <button type="submit">Submit</button>
               </form>
         </main>
         <footer>
@@ -42,5 +43,6 @@
             document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
                  document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
          </script>
+         <script src="scripts/clientscripts.js"></script>
          </body>
 </html>
