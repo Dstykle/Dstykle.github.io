@@ -33,11 +33,9 @@ img{
     display: flex;
     float: right;
 }
-/*
-figcaption{
-    want the caption to siut under the photo 
-}
-*/
+canvas {
+    display: block;
+  }
 
 /* MOBILE RULES */
 /* Remove Initial */
