@@ -1,7 +1,7 @@
-##ITIS 3135 - Web-Based Application Design and Development
-##Student: Pablo A. Gomez
-##Course: ITIS 3135 Web-Based Application Design and Development
-##Semester: Spring 2025
+## ITIS 3135 - Web-Based Application Design and Development
+## Student: Pablo A. Gomez
+## Course: ITIS 3135 Web-Based Application Design and Development
+## Semester: Spring 2025
 
 #Project Description
 This repository contains all coursework and projects for ITIS 3135, a comprehensive web development course focusing on HTML, CSS, and JavaScript fundamentals. The project demonstrates proficiency in semantic HTML structure, responsive CSS design, accessibility standards, and interactive JavaScript functionality.
